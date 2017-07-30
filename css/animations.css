@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Edição do Scroll no Chrome*/
+		::-webkit-scrollbar {
+		  width: 10px;
+		  height: 10px;
+		}
+
+		::-webkit-scrollbar-button:start:decrement,
+		::-webkit-scrollbar-button:end:increment  {
+		  display: none;
+		}
+
+		::-webkit-scrollbar-track-piece  {
+		  background-color: #3b3b3b;
+		  -webkit-border-radius: 6px;
+		  border-radius: 6px;
+		}
+
+		::-webkit-scrollbar-thumb:vertical {
+		  background-color: #666;
+		  -webkit-border-radius: 6px;
+		  border-radius: 6px;
+		}
+
+/*Animações da Seção de Conhecimentos*/
+
+		#frontend:hover #icon_front{
+			background-image: url(../img/front_icon2.png);
+			background-size: cover;
+
+			transform: scale(1.2);
+		}
+
+		#linguagens:hover #icon_ling{
+			background-image: url(../img/linguagem_icon2.png);
+			background-size: cover;
+
+			transform: scale(1.2);
+		}
+
+		#metodologias:hover #icon_meto{
+			background-image: url(../img/meto_icon2.png);
+			background-size: cover;
+
+			transform: scale(1.2);
+		}
+
+		#gover:hover #icon_gover{
+			background-image:url(../img/gover_icon2.png);
+			background-size: cover;
+
+			transform: scale(1.2);
+		}
+
+
+/*Animações da Seção de Projetos*/
+
+		.projects a:hover{
+			transform: scale(1.1);
+			border: solid orangered;
+		}
+
+/*Animações do Rodapé*/
+
+
+		.contacts a:hover{
+			transform: scale(1.15);
+		}
+
+
+
+
